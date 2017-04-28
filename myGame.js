@@ -26,7 +26,7 @@ else {
 
 var nama = prompt('Hi, manusia! Siapa namamu?');
 alert('Aku ingin tahu, apa pekerjaanmu?');
-var peran = prompt('Apa pekerjaanmu?\nPilih antara: \nDeveloper,\nDesigner,\nModeller)\nTulis huruf lengkap dengan Kapital di huruf depannya.');
+var peran = prompt('Apa pekerjaanmu?\nPilih antara: \nDeveloper,\nDesigner,\nModeller\nTulis huruf lengkap dengan Kapital di huruf depannya.');
 
 //conditional nama
 
@@ -39,7 +39,7 @@ else {
 
 //unconditional
 if (peran == '') {
-  alert("Pilih peranmu untuk memulai game. Kamu bisa memilih: 1) Ksatria\n2) Tabib\n3)Penyihir");
+  alert("Pilih peranmu untuk memulai game. Kamu bisa memilih:\n1) Ksatria\n2) Tabib\n3)Penyihir");
 }
 
 //conditional Developer
@@ -89,7 +89,7 @@ var npc = new Player(prompt('Berikan aku nama, wahai manusia'),'Alderaan','Mengo
   alert('Psst, apakah kamu tahu kalau aku bertetangga dengan Princess Leia?');
   alert('Oops, sepertinya aku keceplosan. Terlalu banyak informasi yang kuceritakan');
 
-var reaksiPemain1 = prompt('Pilih reaksi dan tulis nomornya saja: 1. Dasar tukang ledeng!\n2. Tampar aku, mas!\n3. Diam saja');
+var reaksiPemain1 = prompt('Pilih reaksi dan tulis nomornya saja:\n1. Dasar tukang ledeng!\n2. Tampar aku, mas!\n3. Diam saja');
 
 if (reaksiPemain1 = '1'){
   alert('Kamu suka nonton Fluxcup, ya?');
@@ -152,7 +152,7 @@ alert('Aku adalah agen asuransi. Dan kamu telah secara tidak sadar bergabung men
 alert('Muwahahahaha!');
 alert('Hey, dari tadi kau diam saja? Pasti kamu kaget kan sama \'Plot-twist\'-ku');
 
-var pertanyaan2 = prompt('Pilih reaksi dan tulis nomornya saja: 1. Pasrah dan terima saja apa yang sudah terjadi\n2. Gorok lehernya dan kabur!');
+var pertanyaan2 = prompt('Pilih reaksi dan tulis nomornya saja:\n1. Pasrah dan terima saja apa yang sudah terjadi\n2. Gorok lehernya dan kabur!');
 
 //----------Conditional If-else
 
