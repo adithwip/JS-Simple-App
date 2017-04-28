@@ -26,7 +26,7 @@ else {
 
 var nama = prompt('Hi, manusia! Siapa namamu?');
 alert('Aku ingin tahu, apa pekerjaanmu?');
-var peran = prompt('Apa pekerjaanmu?(Pilih antara: \nDeveloper,\nDesigner,\natau Modeller)\nTulis huruf lengkap dengan Kapital.');
+var peran = prompt('Apa pekerjaanmu?\nPilih antara: \nDeveloper,\nDesigner,\nModeller)\nTulis huruf lengkap dengan Kapital di huruf depannya.');
 
 //conditional nama
 
